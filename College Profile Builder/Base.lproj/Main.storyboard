@@ -48,7 +48,13 @@
                             <constraint firstAttribute="trailingMargin" secondItem="yxm-Bx-Cwl" secondAttribute="trailing" constant="-20" id="qB3-Xa-w9D"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Vca-5c-5M4"/>
+                    <navigationItem key="navigationItem" id="Vca-5c-5M4">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="fnk-RD-8FK">
+                            <connections>
+                                <action selector="onTappedPlusButton:" destination="BYZ-38-t0r" id="S9J-I6-59O"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="yxm-Bx-Cwl" id="PKd-IW-TT1"/>
                     </connections>
